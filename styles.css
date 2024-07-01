@@ -1,11 +1,7 @@
-/* 设置标题背景颜色以及内边距 */
+/* 设置标题样式 */
 .title-div {
   background-color: #3366FF;
   padding: 20px;
-}
-
-/* 设置标题字体颜色 */
-.title-h1 {
   color: white;
   text-indent: 2em;
 }
