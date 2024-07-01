@@ -2,12 +2,10 @@
 .title-div {
   background-color: #3366FF;
   padding: 20px;
-  color: ;
-  text-indent: em;
 }
 
 /* 设置标题字体颜色 */
-.title {
+.title-h1 {
   color: white;
   text-indent: 2em;
 }
