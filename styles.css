@@ -2,38 +2,42 @@
 .title-div {
   background-color: #3366FF;
   padding: 20px;
+}
+
+/* 设置标题字体颜色 */
+.title-h1 {
   color: white;
   text-indent: 2em;
 }
 
 /* 创建首页按钮 */
-.title-button {
+.home-button {
   background-color: #3333FF;
-  margin: 0px;
+  margin: 0;
   padding: 20px;
   text-indent: 2em;
 }
 
-.title-button a {
+.home-button a {
   color: white;
   text-decoration: none;
 }
 
 /* 设置正文内边距和缩进 */
-.source-div {
+.content-div {
   background-color: #00CCFF;
   margin: 20px;
   width: 350px;
 }
 
-.source-title {
+.content-h2 {
   color: white;
   padding: 15px;
-  margin: 0;
+  margin: 0px;
   text-indent: 0.5em;
 }
 
-.source-p1 {
+.content-p {
   margin: 0;
   padding: 10px;
   text-indent: 1em;
