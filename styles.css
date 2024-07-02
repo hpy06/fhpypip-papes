@@ -7,33 +7,33 @@
 }
 
 /* 创建标题按钮 */
-.title-button {
+.menu-button {
   background-color: #3333FF;
   margin: 0;
   padding: 20px;
   text-indent: 2em;
 }
 
-.title-button a {
+.menu-button a {
   color: white;
   text-decoration: none;
 }
 
 /* 设置正文内边距和缩进 */
-.content-div {
+.source-div {
   background-color: #00CCFF;
   margin: 20px;
   width: 350px;
 }
 
-.content-h2 {
+.source-title {
   color: white;
   padding: 15px;
   margin: 0px;
   text-indent: 0.5em;
 }
 
-.content-p {
+.source {
   margin: 0;
   padding: 10px;
   text-indent: 1em;
@@ -45,14 +45,11 @@
   background-color: #303030;
   text-align: center;
   padding: 40px;
-}
-
-.footer-p, .footer-a {
   color: white;
 }
 
 /* 其他可能需要的样式，例如高度 */
-.construction-div {
+.remain {
   height: 500px;
 }
 
