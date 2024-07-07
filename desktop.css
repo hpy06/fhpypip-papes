@@ -1,22 +1,27 @@
 /* 设置标题格式 */
 .title-div {
-  background-color: #3366FF;
-  padding: 20px;
-  color: white;
-  text-indent: 2em;
+  background-color: ;
+  padding: 0.5em;
+  text-indent: 5em;
 }
 
 /* 创建标题按钮 */
-.menu-button {
-  background-color: #3333FF;
+.menu {
+  background-color: #3377FF;
   margin: 0;
-  padding: 20px;
-  text-indent: 2em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
-.menu-button a {
+.menu a {
   color: white;
   text-decoration: none;
+}
+
+.menu img {
+  height: 1.5em;
+  width: 1.5em; 
 }
 
 /* 设置正文内边距和缩进 */
