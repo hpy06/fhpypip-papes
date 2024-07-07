@@ -24,38 +24,47 @@
   width: 1.5em; 
 }
 
+.hello {
+  text-align: center;
+  font: 20;
+}
+
+.hello-h1 {font: 50;}
+
 /* 设置正文内边距和缩进 */
 .source-div {
   background-color: #00CCFF;
-  margin: 20px;
-  width: 350px;
+  margin: 2em;
+  width: 20em;
 }
 
 .source-title {
   color: white;
-  padding: 15px;
-  margin: 0px;
+  padding: 0.7em;
+  margin: 0;
   text-indent: 0.5em;
 }
 
 .source {
   margin: 0;
-  padding: 10px;
+  padding: 0.7em;
   text-indent: 1em;
   background-color: #D0D0D0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* 设置底部背景颜色、居中及内边距 */
 .footer-div {
   background-color: #303030;
   text-align: center;
-  padding: 40px;
+  padding: 1em;
   color: white;
 }
 
 /* 其他可能需要的样式，例如高度 */
 .remain {
-  height: 500px;
+  height: 200px;
 }
 
 
