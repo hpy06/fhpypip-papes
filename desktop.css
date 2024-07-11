@@ -1,14 +1,22 @@
 /* 设置标题格式 */
 .title-div {
-  background-color: ;
   padding: 0.5em;
   text-indent: 5em;
+  color: #A0A0A0;
+  display: flex;
+  justify-content: center;
+}
+
+.title-h1 img {
+  margin-bottom: -0.5em;
+  height: 2em;
+  width: 2em;
 }
 
 /* 创建标题按钮 */
 .menu {
-  background-color: #3377FF;
-  margin: 0;
+  background-color: #62b7fd;
+  margin: 0.5em;
   padding: 1em;
   display: flex;
   justify-content: space-between;
@@ -25,35 +33,14 @@
 }
 
 .hello {
+  padding: 10em;
   text-align: center;
   font: 20;
 }
 
-.hello-h1 {font: 50;}
-
-/* 设置正文内边距和缩进 */
-.source-div {
-  background-color: #00CCFF;
-  margin: 2em;
-  width: 20em;
-}
-
-.source-title {
-  color: white;
-  padding: 0.7em;
-  margin: 0;
-  text-indent: 0.5em;
-}
-
 .source {
-  margin: 0;
-  padding: 0.7em;
-  text-indent: 1em;
-  background-color: #D0D0D0;
-  display: flex;
-  justify-content: space-between;
+  background-color: #A0A0A0;
 }
-
 /* 设置底部背景颜色、居中及内边距 */
 .footer-div {
   background-color: #303030;
