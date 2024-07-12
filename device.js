@@ -40,5 +40,15 @@ function showElementsByClass(className) {
     }
 }
 
+function showMenu() {
+    if (document.getElementById('downmenu').style.display === 'block') {
+        document.getElementById('downmenu').style.display = 'none';
+        document.getElementById('menu').style.backgroundColor = '#62b7fd'
+    } else {
+        document.getElementById('downmenu').style.display = 'block';
+        document.getElementById('menu').style.backgroundColor = 'white'
+    }
+}
+
 // 当页面加载完成时，调用该函数
 document.addEventListener('DOMContentLoaded', loadDeviceSpecificCSS);
