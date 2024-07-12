@@ -109,7 +109,12 @@ body {background-color: #F8F8F8;}
   font-size: 1.2em;
   padding-top: 1em;
   margin: 0em;
+  white-space: nowrap;
 }
+
+.sort1 {width: 20em;}
+.sort2 {width: 10em;}
+.sort3 {width: 13em;}
 
 .list div {
   display: flex;

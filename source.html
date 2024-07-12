@@ -10,56 +10,95 @@
 </head>
 
 <body> <!--创建内容-->
-  <div class="logo"> <!--设置标题格式-->
+  <div class="logo desktop"> <!--设置标题格式-->
     <h1> <!--设置标题字体颜色-->
       <img src="logo.ico">
-      纸穗 <!--设置标题内容-->
+      纸穗<!--设置标题内容-->
     </h1>
   </div>
-  <h3 class="menu"> <!--创建首页按钮-->
-    <nav>
+  <h3 class="menu desktop"> <!--创建首页按钮-->
+    <div>
       <a href="index.html" ;>&emsp;首页&emsp;</a>
       <a href="source.html">资源下载</a>
-    </nav>
-    <nav>
+    </div>
+    <div>
       <a href="login.html">&emsp;登录&emsp;</a>
       &emsp;
-    </nav>
+    </div>
+  </h3>
+  <div class="menu mobile">
+    <a href="index.html" class="menu-left">
+      <img src="logo.ico">
+      <h2>纸穗</h2>
+    </a>
+    <div class="menu-right">
+      <div>
+        <a href="login.html">
+          <img src="user.ico">
+        </a>
+      </div>
+      <div id="menu">
+        <a href="#" onclick="showMenu()">
+          <img src="menu.ico">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="downmenu">
+    <a href="source.html">资源下载</a>
+  </div>
   </h3>
   <!-- 创建正文部分 -->
   <div class="path">
     <a href="source.html">资源下载</a>
   </div>
   <div class="content list">
-    <div class="sort">
-      <p style="width: 20em;">类型&emsp;&emsp;&emsp;名称</p>
-      <p style="width: 10em;">版本</p>
+    <div class="sort desktop">
+      <p class="sort1">类型&emsp;&emsp;&emsp;名称</p>
+      <p class="sort2">版本</p>
       <p>大小</p>
     </div>
-    <div>
-      <p style="width: 20em;">
+    <p class="sort mobile">类型&emsp;&emsp;&emsp;名称</p>
+    <div class="desktop">
+      <p class="sort1">
         <a href="source/apps.html">[应用程序]</a>
-        抽取幸运星
+        抽取幸运星&ensp;
       </p>
-      <p style="width: 10em;">v2.0</p>
-      <p style="width: 13em;">32MB</p>
+      <p class="sort2">v2.0&ensp;</p>
+      <p class="sort3">32MB&ensp;</p>
       <p>
         <a href="source/luckdog.html">点击查看
         </a>
       </p>
     </div>
-    <div>
-      <p style="width: 20em;">
+    <p class="sort1 mobile">
+      <a href="source/apps.html">[应用程序]</a>
+      抽取幸运星&ensp;
+    </p>
+    <p class="sort2 mobile">v2.0&ensp;32MB&ensp;
+      <a href="source/luckdog.html">点击查看
+      </a>
+    </p>
+    <div class="desktop">
+      <p class="sort1">
         <a href="source/apps.html">[应用程序]</a>
-        Wallpaper_engine
+        Wallpaper_engine&ensp;
       </p>
-      <p style="width: 10em;">v2.4.82</p>
-      <p style="width: 13em;">87.6MB</p>
+      <p class="sort2">v2.4.82&ensp;</p>
+      <p class="sort3">87.6MB&ensp;</p>
       <p>
         <a href="source/wallpaper_engine.html">点击查看
         </a>
       </p>
     </div>
+    <p class="sort1 mobile">
+      <a href="source/apps.html">[应用程序]</a>
+      Wallpaper_engine&ensp;
+    </p>
+    <p class="sort2 mobile">v2.4.82&ensp;87.6MB&ensp;
+      <a href="source/wallpaper_engine.html">点击查看
+      </a>
+    </p>
     <p class="end">哎呀，没有更多内容了</p>
   </div>
   <div class="footer-div"> <!--设置底部背景颜色、居中及内边距-->
