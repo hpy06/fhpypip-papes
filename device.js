@@ -23,14 +23,7 @@ function loadCSS(url) {
     link.rel = 'stylesheet';
     link.type = 'text/css';
     link.href = url;
-    link.onload = function() {
-        document.getElementById('normal').style.display = 'block';
-    }
     head.appendChild(link);
-}
-
-function loadElementsById() {
-    document.getElementById('normal').style.display = 'block';
 }
 
 function hideElementsByClass(className) {
