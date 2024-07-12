@@ -14,6 +14,7 @@ function loadDeviceSpecificCSS() {
         loadCSS('/login_desktop.css');
         hideElementsByClass('mobile');
         showElementsByClass('desktop');
+        document.getElementById('downmenu').style.display = 'none'
     }
 }
 
