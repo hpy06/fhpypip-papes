@@ -1,83 +1,90 @@
-
 .login {
-    width: 20em;
-    margin-inline: 24em;
-    padding-bottom: 1em;
-    border-radius: 1em;
-    background-color: white;
-    box-shadow: 0em 0.5em 1em #D0D0D0;
-    font-size: 1.2em;
-  }
-  
-  .return {
-    padding-right: 18em;
-    margin-bottom: -1em;
-    margin-inline: 29em;
-    white-space: pre;
-  }
-  
-  .return a {
-    font-size: 1.2em;
-    text-decoration: none;
-  }
-  
-  .login-warning {
-    margin-top: -1em;
-    margin-inline: 2em;
-    margin-bottom: 0.5em;
-    color: red;
-  }
-  
-  #login {display: none;}
-  #forget {display: none;}
-  
-  .login h3 {
-    width: 2em;
-    padding-top: 1em;
-    margin-inline: 5.7em;
-    font-size: 1.5em;
-  }
-  
-  .login button {
-    height: 1.7em;
-    width: 11em;
-    padding: 0.2em;
-    margin-inline: 1.2em;
-    border: none;
-    border-radius: 0.5em;
-    font-size: 1.5em;
-    color: white;
-    background-color: #009100;
-  }
-  
-  .login button:hover{background-color: #006600;}
-  
-  .input {
-    height: 2em;
-    width: 16em;
-    margin-inline: 2em;
-    margin-bottom: 1em;
-    padding: 0.3em;
-    padding-inline: 1em;
-    border-radius: 0.3em;
-    border: #C0C0C0 solid 0.1em;
-    background-color: #E0E0E0;
-    font-size: 0.9em;
-  }
-  
-  .remember {
-    margin-top: -1em;
-    margin-inline: 2em;
-    color: #606060;
-    display: flex;
-  }
-  
-  .remember input {transform: scale(1.5);}
-  
-  .remember a {
-    margin-top: 1em;
-    color: #606060;
-    text-indent: 5.5em;
-    text-decoration: none;
-  }
-  
+  width: 20em;
+  margin-inline: 24em;
+  padding-bottom: 1em;
+  border-radius: 1em;
+  background-color: white;
+  box-shadow: 0em 0.5em 1em #D0D0D0;
+  font-size: 1.2em;
+}
+
+.return {
+  padding-right: 18em;
+  margin-bottom: -1em;
+  margin-inline: 29em;
+  white-space: pre;
+}
+
+.return a {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.login-warning {
+  margin-top: -1em;
+  margin-inline: 2em;
+  margin-bottom: 0.5em;
+  color: red;
+}
+
+#login {
+  display: none;
+}
+
+#forget {
+  display: none;
+}
+
+.login h3 {
+  width: 2em;
+  padding-top: 1em;
+  margin-inline: 5.7em;
+  font-size: 1.5em;
+}
+
+.login button {
+  height: 1.7em;
+  width: 11em;
+  padding: 0.2em;
+  margin-inline: 1.2em;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  color: white;
+  background-color: #009100;
+}
+
+.login button:hover {
+  background-color: #006600;
+}
+
+.input {
+  height: 2em;
+  width: 16em;
+  margin-inline: 2em;
+  margin-bottom: 1em;
+  padding: 0.3em;
+  padding-inline: 1em;
+  border-radius: 0.3em;
+  border: #C0C0C0 solid 0.1em;
+  background-color: #E0E0E0;
+  font-size: 0.9em;
+}
+
+.remember {
+  margin-top: -1em;
+  margin-inline: 2em;
+  color: #606060;
+  display: flex;
+}
+
+.remember input {
+  transform: scale(1.5);
+}
+
+.remember a {
+  margin-top: 1em;
+  color: #606060;
+  text-indent: 5.5em;
+  text-decoration: none;
+}

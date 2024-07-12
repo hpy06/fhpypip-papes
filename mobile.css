@@ -1,4 +1,7 @@
-body {background-color: #F8F8F8;}
+body {
+  background-color: #F8F8F8;
+}
+
 /* 设置标题格式 */
 .logo {
   padding: 0.5em;
