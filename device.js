@@ -6,10 +6,14 @@ function loadDeviceSpecificCSS() {
         // 加载移动设备的CSS
         loadCSS('/mobile.css');
         loadCSS('/login_mobile.css');
+        hideElementsByClass('desktop');
+        showElementsByClass('mobile');
     } else {
         // 加载桌面设备的CSS
         loadCSS('/desktop.css');
         loadCSS('/login_desktop.css');
+        hideElementsByClass('mobile');
+        showElementsByClass('desktop');
     }
 }
 
@@ -19,7 +23,28 @@ function loadCSS(url) {
     link.rel = 'stylesheet';
     link.type = 'text/css';
     link.href = url;
+    link.onload = function() {
+        document.getElementById('normal').style.display = 'block';
+    }
     head.appendChild(link);
+}
+
+function loadElementsById() {
+    document.getElementById('normal').style.display = 'block';
+}
+
+function hideElementsByClass(className) {
+    var elements = document.getElementsByClassName(className);
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = 'none';
+    }
+}
+
+function showElementsByClass(className) {
+    var elements = document.getElementsByClassName(className);
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = 'flex';
+    }
 }
 
 // 当页面加载完成时，调用该函数

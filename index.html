@@ -8,23 +8,37 @@
   <title>纸穗</title> <!--设置标签名称-->
 </head>
 
-<body> <!--创建内容-->
-  <div class="logo"> <!--设置标题格式-->
+<body id="normal" style="display: none;"> <!--创建内容-->
+  <div class="logo desktop"> <!--设置标题格式-->
     <h1> <!--设置标题字体颜色-->
       <img src="logo.ico">
       纸穗<!--设置标题内容-->
     </h1>
   </div>
-  <h3 class="menu"> <!--创建首页按钮-->
+  <h3 class="menu desktop"> <!--创建首页按钮-->
     <div>
       <a href="index.html" ;>&emsp;首页&emsp;</a>
       <a href="source.html">资源下载</a>
     </div>
     <div>
-      <a href="personal.html">个人中心</a>
+      <a href="login.html">&emsp;登录&emsp;</a>
       &emsp;
     </div>
   </h3>
+  <div class="menu mobile">
+    <a href="index.html" class="menu-left">
+      <img src="logo.ico">
+      <h2>纸穗</h2>
+    </a>
+    <div>
+      <a href="login.html" class="menu-right">
+        <img src="user.ico">
+      </a>
+      <a href="#" onclick="">
+        <img src="menu.ico">
+      </a>
+    </div>
+  </div>
   <!-- 创建正文部分 -->
   <div class="hello">
     <h1>欢迎</h1>

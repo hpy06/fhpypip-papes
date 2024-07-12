@@ -1,6 +1,4 @@
-body {
-  background-color: #F8F8F8;
-}
+body {background-color: #F8F8F8;}
 
 /* 设置标题格式 */
 .logo {
@@ -31,9 +29,7 @@ body {
   justify-content: space-between;
 }
 
-.menu a:hover {
-  background-color: #00e1ff;
-}
+.menu a:hover {background-color: #00e1ff;}
 
 .menu a {
   background-color: #62b7fd;
@@ -41,11 +37,6 @@ body {
   text-decoration: none;
   margin: 0;
   padding: 1em;
-}
-
-.menu img {
-  height: 1.5em;
-  width: 1.5em;
 }
 
 .hello {
@@ -82,13 +73,9 @@ body {
   background-color: white;
 }
 
-.content p {
-  margin-inline: 2em;
-}
+.content p {margin-inline: 2em;}
 
-.inform {
-  display: flex;
-}
+.inform {display: flex;}
 
 .inform p {
   width: 18em;
@@ -130,13 +117,9 @@ body {
   font-size: 1.2em;
 }
 
-.list div p {
-  margin: 0;
-}
+.list div p {margin: 0;}
 
-.list div p a {
-  text-decoration: none;
-}
+.list div p a {text-decoration: none;}
 
 .end {
   text-align: center;
@@ -149,9 +132,4 @@ body {
   text-align: center;
   padding: 1em;
   color: white;
-}
-
-/* 其他可能需要的样式，例如高度 */
-.remain {
-  height: 200px;
 }

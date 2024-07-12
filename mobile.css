@@ -20,3 +20,35 @@ body {
   height: 1.5em;
   width: 1.5em;
 }
+
+.menu {
+  background-color: #62b7fd;
+  padding: 1em;
+  height: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-left {
+  display: flex;
+  float: left;
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+}
+
+.menu-left h2 {
+  margin: 0;
+  margin-inline: 0.2em;
+}
+
+.menu a img {height: 2em;}
+
+/* 设置底部背景颜色、居中及内边距 */
+.footer-div {
+  font-size: 0.5em;
+  background-color: #303030;
+  text-align: center;
+  padding: 0.5em;
+  color: white;
+}
