@@ -44,6 +44,15 @@ body {
 
 .menu a img {height: 2em;}
 
+.hello {
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 8em;
+}
+
+.hello h1 {font-size: 5em;}
+.hello h2 {font-size: 3em;}
+
 /* 设置底部背景颜色、居中及内边距 */
 .footer-div {
   font-size: 0.5em;
