@@ -4,7 +4,8 @@
       <meta charset="utf-8"> <!--设置标签文本格式-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="mobile.css?" defer />
-      <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="desktop.css?" defer /> <!-- 引入CSS文件 -->
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="desktop.css?" defer />
+      <link rel="stylesheet" type="text/css" href="login.css" defer/> <!-- 引入CSS文件 -->
       <script src="login.js"></script>
       <title>纸穗</title> <!--设置标签名称-->
   </head>
@@ -15,18 +16,22 @@
         纸穗 <!--设置标题内容-->
       </h1>
     </div> 
-    <div class="return"><a href="#" onclick="history.back()"><返回</a></div>
-    
-    <div class="login">
-        <h3>登录</h3>
-        <p class="login-warning" id="login">账号或密码错误</p>
-        <p class="login-warning" id="forget">谁让你忘的</p>
-        <input type="text" name="account" placeholder="请输入你的账号" class="input">
-        <input type="password" name="password" placeholder="请输入你的密码" class="input">
-        <div class="remember">
-          <input type="checkbox" name="remember">
-          <p>记住密码</p>
-          <a href="#" onclick="forgetWarning()">忘记密码？</a>
-        </div>
-        <button onclick="loginWarning()">登录</button>
+    <div class="logo">
+      <div class="return"><a href="#" onclick="history.back()"><返回&emsp;</a></div>
     </div>
+    <div class="logo">
+      <div class="login">
+          <h3>登录</h3>
+          <p class="login-warning" id="login">账号或密码错误</p>
+          <p class="login-warning" id="forget">谁让你忘的</p>
+          <input type="text" name="account" placeholder="请输入你的账号" class="input">
+          <input type="password" name="password" placeholder="请输入你的密码" class="input">
+          <div class="remember">
+            <input type="checkbox" name="remember">
+            <p>记住密码</p>
+            <a href="#" onclick="forgetWarning()">忘记密码？</a>
+          </div>
+          <button onclick="loginWarning()">登录</button>
+      </div>
+    </div>
+  </body>
