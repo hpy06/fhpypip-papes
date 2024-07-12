@@ -1,79 +1,73 @@
 <!DOCTYPE html> <!--声明文件类型-->
 <html> <!--创建网页-->
   <head> <!--设置标签-->
-    <meta charset="utf-8"> <!--设置标签文本格式-->
-      <title>欢迎来到我的网站</title> <!--设置标签名称-->
-      <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="mobile.css" defer />
-      <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="desktop.css" defer /> <!-- 引入CSS文件 -->
+      <meta charset="utf-8"> <!--设置标签文本格式-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="/mobile.css?" defer />
+      <link rel="stylesheet" type="text/css" media="screen and (min-width: 601px)" href="/desktop.css?" defer /> <!-- 引入CSS文件 -->
+      <script src="source/source.js"></script>
+      <title>纸穗</title> <!--设置标签名称-->
   </head>
   <body> <!--创建内容-->
-    <div class="title-div"> <!--设置标题格式-->
+    <div class="logo"> <!--设置标题格式-->
       <h1> <!--设置标题字体颜色-->
-        <font size="10">wallpaper_engine</font> <!--设置标题内容-->
+        <img src="/logo.ico">
+        纸穗 <!--设置标题内容-->
       </h1>
     </div> 
-    <h2 class="menu-button"> <!--创建首页按钮-->
-      <a href="index.html">首页</a>
-    </h2>
-    <!--创建正文部分-->
-    <div style="float: right;"> <!--将下载按钮靠右-->
-      <div style="background-color: #009900;
-        color: white;
-        padding: 10px;
-        margin: 70px;
-        height: 70px; ">
-        <h2> <!--设置按钮区块格式-->
+    <h3 class="menu"> <!--创建首页按钮-->
+      <nav>
+        <a href="/index.html"; >&emsp;首页&emsp;</a>
+        <a href="/source.html">资源下载</a>
+      </nav>
+      <nav>
+        <a href="/personal.html">个人中心</a>
+        &emsp;
+      </nav>
+    </h3>
+    <!-- 创建正文部分 -->
+    <div class="path">
+      <a href="/source.html">资源下载</a>
+      /
+      <a href="apps.html">应用程序</a>
+      /
+      <a href="luckdog.html">抽取幸运星</a>
+    </div>
+    <div class="content">
+      <div class="inform">
+        <img src="wallpaper.ico">
+        <p>软件开发：Nyaser<br>
+          版本号：2.4.82<br>
+          更新时间：2024-6-14<br>
+          支持的操作系统：未知<br>
+          官网：<a href="https://ec.nyase.ru">https://ec.nyase.ru</a>
+        </p>
+        <h2 class="download">
+          <a href="https://ec.nyase.ru/exe">
+          &emsp;官网下载安装包&emsp;</a>
           <a href="/sourcedownload/Wallpaper_Engine_2.4.82_with_ExamCountdown_2024-06-14_Installer.exe"
-          download="Wallpaper_Engine_2.4.82_with_ExamCountdown_2024-06-14_Installer.exe";
-          style="color: white;
-          text-decoration: none; "> <!--创建下载按钮取消超链接下划线-->
+          download="Wallpaper_Engine_2.4.82_with_ExamCountdown_2024-06-14_Installer.exe"> <!--创建下载按钮取消超链接下划线-->
           &emsp;本站下载安装包&emsp;</a>
         </h2>
       </div>
-      <div style="background-color: #009900;
-        color: white;
-        padding: 10px;
-        margin: 70px;
-        height: 70px">
-        <h2>
-          <a href="https://ec.nyase.ru/exe";
-          style="color: white;
-          text-decoration: none; ">
-          &emsp;官网下载安装包&emsp;</a>
-        </h2>
-      </div>
-    </div>
-    <div style="float:left;margin: 100px;
-    height: 200px;"> <!--展示软件图片-->
-      <img src="wallpaper.ico">
-    </div>
-    <div style="margin: 50px;
-    background-color: #D0D0D0;
-    height: 300px; "> <!--展示软件相关信息-->
-      <h2><br>软件开发：Nyaser<br>
-      版本号：2.4.82<br>
-      更新时间：2024-6-14<br>
-      支持的操作系统：未知<br>
-      官网：<a href="https://ec.nyase.ru">https://ec.nyase.ru</a>
-      </h2>
-    </div>
-    <div style="margin: 100px; "> <!--展示软件相关说明-->
-      <h2>
-      功能：本软件面向备考开发，可以在桌面设置高考、中考、以及会考（小中考）倒计时
-      并联网更新，也可以根据实际情况调整日期设置期末考、期中考等倒计时，
-      本软件带有每日bing壁纸更新和一言拓展等，
-      详细使用情况请联系源作者（Nyaser）邮箱：ec@nyase.ru。<br>
-      安装教程：<br>
-      安装流程详情可参考官网指导页面
-      <a href="https://ec.nyase.ru/guide">https://ec.nyase.ru/guide</a><br>
-      常见问题解答（FAQ）：<br>
-      <ul>
-        很抱歉，暂无相关信息
-      </ul>
-      技术支持：相关技术支持请联系软件作者（Nyaser）邮箱：ec@nyase.ru<br>
-      隐私政策和条款：详见软件官网指导页面
-      <a href="https://ec.nyase.ru/guide">https://ec.nyase.ru/guide</a>
-      </h2>
+      <p>
+        功能：本软件面向备考开发，可以在桌面设置高考、中考、以及会考（小中考）倒计时
+        并联网更新，也可以根据实际情况调整日期设置期末考、期中考等倒计时，
+        本软件带有每日bing壁纸更新和一言拓展等，
+        详细使用情况请联系源作者（Nyaser）邮箱：ec@nyase.ru。<br>
+        安装教程：<br>
+        安装流程详情可参考官网指导页面
+        <a href="https://ec.nyase.ru/guide">https://ec.nyase.ru/guide</a><br>
+        常见问题解答（FAQ）：<br>
+        <ul>
+          很抱歉，暂无相关信息
+        </ul>
+      </p>
+      <p>
+        技术支持：相关技术支持请联系软件作者（Nyaser）邮箱：ec@nyase.ru<br>
+        隐私政策和条款：详见软件官网指导页面
+        <a href="https://ec.nyase.ru/guide">https://ec.nyase.ru/guide</a>
+      </p>
     </div>
     <div class="footer-div"> <!--设置底部背景颜色、居中及内边距-->
       <p>©2024&ensp;|&ensp;hpy</p> <!--展示版权说明-->

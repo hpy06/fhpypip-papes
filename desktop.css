@@ -77,17 +77,19 @@ body {background-color: #F8F8F8;}
   background-color: white;
 }
 
-.inform {
-  display: flex;
-  justify-content: space-between;
-}
+.content p {margin-inline: 2em;}
 
-.inform div {display: flex;}
+.inform {display: flex;}
+
+.inform p {width: 18em;
+  margin-top: 2em;
+}
 
 .inform img {
   height: 5em;
   width: 5em;
   margin: 3em;
+  margin-right: 5em;
 }
 
 .download {
