@@ -133,7 +133,7 @@ body {
   padding: 0.5em;
   margin: 0.2em;
   color: white;
-  font-size: 1.7em;
+  font-size: 1.5em;
   background-color: green;
   text-decoration: none;
   text-align: center;
@@ -141,15 +141,26 @@ body {
 
 .sort {
   color: grey;
-  font-size: 1em;
+  font-size: 2em;
   padding-top: 1em;
-  margin: 0em;
+  margin-inline: -2em;
   white-space: nowrap;
   text-align: left;
 }
 
-.sort1 {display: flex;justify-content: left;}
-.sort2 {display: flex;justify-content: right;}
+.sort1 {
+  margin-inline: -2em;
+  font-size: 2em;
+  display: flex;
+  justify-content: left;
+}
+
+.sort2 {
+  margin-inline: -2em;
+  font-size: 2em;
+  display: flex;
+  justify-content: right;
+}
 
 .list div {
   margin-bottom: 1em;
@@ -164,7 +175,7 @@ body {
 
 .hello h1 {font-size: 5em;}
 .hello h2 {font-size: 3em;}
-.blanket {margin: 8em;}
+.blanket {margin: 20em;}
 
 .end {
   text-align: center;

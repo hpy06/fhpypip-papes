@@ -14,7 +14,6 @@ function loadDeviceSpecificCSS() {
         loadCSS('/login_desktop.css');
         hideElementsByClass('mobile');
         showElementsByClass('desktop');
-        document.getElementById('downmenu').style.display = 'none'
     }
 }
 
@@ -38,16 +37,6 @@ function showElementsByClass(className) {
     var elements = document.getElementsByClassName(className);
     for (var i = 0; i < elements.length; i++) {
         elements[i].style.display = 'flex';
-    }
-}
-
-function showMenu() {
-    if (document.getElementById('downmenu').style.display === 'block') {
-        document.getElementById('downmenu').style.display = 'none';
-        document.getElementById('menu').style.backgroundColor = '#62b7fd'
-    } else {
-        document.getElementById('downmenu').style.display = 'block';
-        document.getElementById('menu').style.backgroundColor = 'white'
     }
 }
 
