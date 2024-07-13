@@ -11,21 +11,48 @@
 </head>
 
 <body> <!--创建内容-->
-  <div class="logo"> <!--设置标题格式-->
+  <div class="logo desktop"> <!--设置标题格式-->
     <h1> <!--设置标题字体颜色-->
-      <img src="/logo.ico">
-      纸穗 <!--设置标题内容-->
+      <img src="logo.ico">
+      纸穗<!--设置标题内容-->
     </h1>
   </div>
-  <h3 class="menu"> <!--创建首页按钮-->
-    <nav>
-      <a href="/index.html" ;>&emsp;首页&emsp;</a>
-      <a href="/source.html">资源下载</a>
-    </nav>
-    <nav>
-      <a href="/login.html">&emsp;登录&emsp;</a>
+  <h3 class="menu desktop"> <!--创建首页按钮-->
+    <div>
+      <a href="index.html" ;>&emsp;首页&emsp;</a>
+      <a href="source.html">资源下载</a>
+    </div>
+    <div>
+      <a href="login.html">&emsp;登录&emsp;</a>
       &emsp;
-    </nav>
+    </div>
+  </h3>
+  <div class="menu mobile">
+    <a href="index.html" class="menu-left">
+      <img src="/logo.ico">
+      <h2>纸穗</h2>
+    </a>
+    <div class="menu-right">
+      <div>
+        <a href="/login.html">
+          <img src="/user.ico">
+        </a>
+      </div>
+      <div id="menu">
+        <a href="#" onclick="showMenu()">
+          <img src="/menu.ico">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="downmenu">
+    <div>
+      <a href="/index.html" ;>&emsp;首页&emsp;</a>
+    </div>
+    <div>
+      <a href="/source.html">资源下载</a>
+    </div>
+  </div>
   </h3>
   <!-- 创建正文部分 -->
   <div class="path">
@@ -36,7 +63,7 @@
     <a href="luckdog.html">抽取幸运星</a>
   </div>
   <div class="content">
-    <div class="inform">
+    <div class="inform desktop">
       <img src="抽取幸运星.ico">
       <p>软件开发：hpy<br>
         版本号：2.0<br>
@@ -53,6 +80,23 @@
           &emsp;立即下载便携版&emsp;</a>
       </h2>
     </div>
+    <div class="inform mobile">
+      <img src="抽取幸运星.ico">
+      <p>软件开发：hpy<br>
+        版本号：2.0<br>
+        更新时间：2024-2-16<br>
+        支持的操作系统：<br>
+        Windows&ensp;7<br>
+        Windows&ensp;10<br>
+        Windows&ensp;11<br>
+      </p>
+    </div>
+    <h2 class="download mobile">
+      <a href="/sourcedownload/luckdog/抽取幸运星.exe" download="抽取幸运星.exe">
+        &ensp;立即下载&ensp;<br>&emsp;便携版&emsp;</a>
+      <a href="/sourcedownload/luckdog/抽取幸运星.exe" download="抽取幸运星.exe">
+        &ensp;立即下载&ensp;<br>&emsp;便携版&emsp;</a>
+    </h2>
     <p>
       功能：本软件面向教学开发，可以根据班级人数抽取不重复或者重复的号数，
       也可以根据班级名单（白名单）抽取不重复或者重复姓名，
