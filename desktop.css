@@ -73,7 +73,10 @@ body {background-color: #F8F8F8;}
   background-color: white;
 }
 
-.content p {margin-inline: 2em;}
+.content p {
+  margin-inline: 2em;
+  font-size: 1em;
+}
 
 .inform {display: flex;}
 
@@ -102,6 +105,7 @@ body {background-color: #F8F8F8;}
   color: white;
   background-color: green;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .sort {

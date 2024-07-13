@@ -103,21 +103,22 @@ body {
   background-color: white;
 }
 
-.content p {padding-inline: 3em;}
+.content p {padding-inline: 3em;font-size: 2em;}
+.content ul {font-size: 2em;}
 
 .content p a {text-decoration: none;}
 
 .inform {display: flex;justify-content: center;}
 
 .inform p {
-  font-size: 0.9em;
+  font-size: 1.7em;
   margin-top: 3em;
   width: 30em;
 }
 
 .inform img {
-  height: 8em;
-  width: 8em;
+  height: 6em;
+  width: 6em;
   margin-top: 6em;
   margin-inline: 3em;
 }
@@ -133,7 +134,7 @@ body {
   padding: 0.5em;
   margin: 0.2em;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
   background-color: green;
   text-decoration: none;
   text-align: center;
