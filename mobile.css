@@ -170,13 +170,13 @@ body {
 
 .hello {
   text-align: center;
-  margin-top: 6em;
-  margin-bottom: 8em;
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 
 .hello h1 {font-size: 5em;}
 .hello h2 {font-size: 3em;}
-.blanket {margin: 20em;}
+.blanket {margin: 30em;}
 
 .end {
   text-align: center;
