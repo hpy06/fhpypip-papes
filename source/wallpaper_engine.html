@@ -12,32 +12,59 @@
 </head>
 
 <body> <!--创建内容-->
-  <div class="logo"> <!--设置标题格式-->
+  <div class="logo desktop"> <!--设置标题格式-->
     <h1> <!--设置标题字体颜色-->
-      <img src="/logo.ico">
-      纸穗 <!--设置标题内容-->
+      <img src="logo.ico">
+      纸穗<!--设置标题内容-->
     </h1>
   </div>
-  <h3 class="menu"> <!--创建首页按钮-->
-    <nav>
+  <h3 class="menu desktop"> <!--创建首页按钮-->
+    <div>
       <a href="/index.html" ;>&emsp;首页&emsp;</a>
       <a href="/source.html">资源下载</a>
-    </nav>
-    <nav>
+    </div>
+    <div>
       <a href="/login.html">&emsp;登录&emsp;</a>
       &emsp;
-    </nav>
+    </div>
+  </h3>
+  <div class="menu mobile">
+    <a href="index.html" class="menu-left">
+      <img src="/logo.ico">
+      <h2>纸穗</h2>
+    </a>
+    <div class="menu-right">
+      <div>
+        <a href="/login.html">
+          <img src="/user.ico">
+        </a>
+      </div>
+      <div id="menu">
+        <a href="#" onclick="showMenu()">
+          <img src="/menu.ico">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="downmenu">
+    <div>
+      <a href="/index.html" ;>&emsp;首页&emsp;</a>
+    </div>
+    <div>
+      <a href="/source.html">资源下载</a>
+    </div>
+  </div>
   </h3>
   <!-- 创建正文部分 -->
   <div class="path">
     <a href="/source.html">资源下载</a>
     /
-    <a href="apps.html">应用程序</a>
+    <a href="/source/apps.html">应用程序</a>
     /
-    <a href="luckdog.html">抽取幸运星</a>
+    <a href="/source/wallpaper_engine.html">Wallpaper_engine</a>
   </div>
   <div class="content">
-    <div class="inform">
+    <div class="inform desktop">
       <img src="wallpaper.ico">
       <p>软件开发：Nyaser<br>
         版本号：2.4.82<br>
@@ -53,6 +80,22 @@
           &emsp;本站下载安装包&emsp;</a>
       </h2>
     </div>
+    <div class="inform mobile">
+      <img src="wallpaper.ico">
+      <p>软件开发：Nyaser<br>
+        版本号：2.4.82<br>
+        更新时间：<br>2024-6-14<br>
+        支持的操作系统：<br>未知<br>
+        官网：<a href="https://ec.nyase.ru">https://ec.nyase.ru</a>
+      </p>
+    </div>
+    <h2 class="download mobile">
+      <a href="https://ec.nyase.ru/exe">
+        &emsp;官网下载安装包&emsp;</a>
+      <a href="/sourcedownload/Wallpaper_Engine_2.4.82_with_ExamCountdown_2024-06-14_Installer.exe"
+        download="Wallpaper_Engine_2.4.82_with_ExamCountdown_2024-06-14_Installer.exe"> <!--创建下载按钮取消超链接下划线-->
+        &emsp;本站下载安装包&emsp;</a>
+    </h2>
     <p>
       功能：本软件面向备考开发，可以在桌面设置高考、中考、以及会考（小中考）倒计时
       并联网更新，也可以根据实际情况调整日期设置期末考、期中考等倒计时，
