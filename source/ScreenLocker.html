@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!--声明文件类型-->
+<html> <!--创建网页-->
+
+<head> <!--设置标签-->
+  <meta charset="utf-8"> <!--设置标签文本格式-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/device.js"></script>
+  <!-- 引入CSS文件 -->
+  <script src="/source/source.js"></script>
+  <script src="/downmenu.js"></script>
+  <title>纸穗</title> <!--设置标签名称-->
+</head>
+
+<body> <!--创建内容-->
+  <div class="logo desktop"> <!--设置标题格式-->
+    <h1> <!--设置标题字体颜色-->
+      <img src="/logo.ico">
+      纸穗<!--设置标题内容-->
+    </h1>
+  </div>
+  <h3 class="menu desktop"> <!--创建首页按钮-->
+    <div>
+      <a href="/index.html" ;>&emsp;首页&emsp;</a>
+      <a href="/source.html">资源下载</a>
+    </div>
+    <div>
+      <a href="/login.html">&emsp;登录&emsp;</a>
+      &emsp;
+    </div>
+  </h3>
+  <div class="menu mobile">
+    <a href="/index.html" class="menu-left">
+      <img src="/logo.ico">
+      <h2>纸穗</h2>
+    </a>
+    <div class="menu-right">
+      <div>
+        <a href="/login.html">
+          <img src="/user.ico">
+        </a>
+      </div>
+      <div id="menu">
+        <a href="#" onclick="showMenu()">
+          <img src="/menu.ico">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="downmenu">
+    <div>
+      <a href="/index.html" ;>&emsp;首页&emsp;</a>
+    </div>
+    <div>
+      <a href="/source.html">资源下载</a>
+    </div>
+  </div>
+  </h3>
+  <!-- 创建正文部分 -->
+  <div class="path">
+    <a href="/source.html">资源下载</a>
+    /
+    <a href="/source/apps.html">应用程序</a>
+    /
+    <a href="/source/ScreenLocker.html">抽取幸运星</a>
+  </div>
+  <div class="content">
+    <div class="inform desktop">
+      <img src="SC.ico">
+      <p>软件开发：hpy<br>
+        版本号：1.0<br>
+        更新时间：2024-7-26<br>
+        支持的操作系统：<br>
+        Windows&ensp;10<br>
+      </p>
+      <h2 class="download">
+        <a href="/sourcedownload/ScreenLocker/ScreenLocker_installer.exe" download="ScreenLocker_installer.exe">
+          &emsp;立即下载安装包&emsp;</a>
+      </h2>
+    </div>
+    <div class="inform mobile">
+      <img src="SC.ico">
+      <p>软件开发：hpy<br>
+        版本号：1.0<br>
+        更新时间：<br>2024-7-26<br>
+        支持的操作系统：<br>
+        Windows&ensp;10<br>
+      </p>
+    </div>
+    <h2 class="download mobile">
+      <a href="/sourcedownload/ScreenLocker/ScreenLocker_installer.exe" download="ScreenLocker_installer.exe">
+        &emsp;立即下载安装包&emsp;</a>
+    </h2>
+    <p>
+      功能：本软件为简易的U盘密钥锁屏程序，可用于简单地开机锁定设备。该程序非专业加密软件，
+      如需加密机要文件请选择专业加密软件。<br>
+      安装教程：<br>
+      &emsp;下载后以管理员身份运行安装包，输入解锁用的U盘盘符（例如：C:或者C）后，点击安装即可<br>
+      常见问题解答（FAQ）：<br>
+    <ul>
+      <li>为什么安装失败？<br>
+        一、本软件需要管理员权限，请检查是否以管理员身份运行；二、可能之前已经安装过该程序，请卸载旧版本后再安装。</li>
+      <li>怎么卸载该程序？<br>
+        程序安装后作为密钥的U盘中会出现用于卸载该程序的exe文件，双击即可卸载。若卸载程序丢失请联系本站作者。</li>
+    </ul>
+    </p>
+    <p>
+      技术支持：软件所有服务均不收取费用，如遇收费，切勿相信，
+      相关技术支持请联系本站作者<br>
+      隐私政策和条款：本软件不会收集用户信息，运行需要管理员权限，无需联网，请放心使用。
+    </p>
+  </div>
+  <div class="footer-div"> <!--设置底部背景颜色、居中及内边距-->
+    <p>©2024&ensp;|&ensp;hpy</p> <!--展示版权说明-->
+    <p>邮箱：feedback@fhpypip.ru</p>
+    <p>感谢Nyaser对本站建设提供的支持</p>
+  </div>
+</body>
+
+</html>
